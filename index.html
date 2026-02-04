@@ -3,9 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tic-Tac-Toe: Game Start</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <main class="content">
+        <section class="start-game container">
+            <div class="start-game-head">
+                <div class="start-game-icon">
+                    <img src="./icons/cross.svg" alt="Cross" class="start-game-icon1" width="32" height="32" loading="lazy">
+                    <img src="./icons/zero.svg" alt="Zero" class="start-game-icon2" width="32" height="32" loading="lazy">
+                </div>
+                <div class="start-game-side">
+                    <img src="./images/Cross-alternate.svg" alt="Cross-alternate" class="start-game-image" width="20" height="20" loading="lazy">
+                    TURN
+                </div>
+                <div class="start-game-return">
+                    <button class="return" type="button">
+                        <img src="./images/Return.svg" alt="Return" class="button-image" width="20" height="20" loading="lazy">
+                    </button>
+                </div>
+            </div>
+            <div class="start-game-body">
+                <div class="start-game-field"></div>
+                <div class="start-game-field"></div>
+                <div class="start-game-field"></div>
+                <div class="start-game-field"></div>
+                <div class="start-game-field"></div>
+                <div class="start-game-field"></div>
+                <div class="start-game-field"></div>
+                <div class="start-game-field"></div>
+                <div class="start-game-field"></div>
+            </div>
+            <div class="start-game-foot">
+                <div class="start-game-point">
+                    X (YOU) <span class="start-game-span">0</span>
+                </div>
+                <div class="start-game-point">
+                    TIES <span class="start-game-span">0</span>
+                </div>
+                <div class="start-game-point">
+                    O (CPU) <span class="start-game-span">0</span>
+                </div>
+            </div>
+        </section>
+    </main>
     
 </body>
 </html>
